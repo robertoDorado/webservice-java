@@ -29,7 +29,7 @@ import br.com.laborcode.angularcrud.utils.exceptions.BadRequest;
 @RequestMapping("/api/products")
 public class ProductsController {
 
-	@Autowired(required = false)
+	@Autowired
 	ProductsRepository productsRepository;
 	
 	@DeleteMapping("/json")
